@@ -1,0 +1,32 @@
+/* ヘッダーのcss */
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background-color: #ce5230;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+.menu-list li{
+    margin-left: 20px;
+}
+
+header h1{
+    color:white;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+
+}
